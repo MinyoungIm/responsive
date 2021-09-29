@@ -1,0 +1,124 @@
+﻿@media screen and (min-width:1280px) and (max-width: 1599px){
+	.singUpWrap{width:20%; }
+	.rightMenuWrap{width:80%; }
+	.searchBtn{top:7px;}
+	#footer{width:100%;}
+	#footer .row{width:95%; margin:0 auto;}
+	#footer>.f_top>h4 {font-size:1.5em;}
+	#footer>.f_top>p{font-size:9px; padding-top:15px;}
+	#footer>.f_top>input{width:15%; padding:3px 0;}
+	#footer>.f_top .newsletter{right:7%;}
+	#footer .f_mid ul li{font-size:1.5em;}
+}
+@media screen and (min-width:1024px) and (max-width:1279px){
+	.singUpWrap{width:20%; }
+	.topMenuWrap ul li{margin:0 15px;}
+	.shipping{display:none;}
+	.searchBtn{top:7px;}
+	.gnb>li{ font-size:1.8em; }
+	
+	
+	.textBox h6{font-size:.9em;}
+	.textBox h2{font-size:2em;}
+	.colM>.textBox h2, .colSM>.textBox h2{font-size:1.5em;}
+	.colM>.textBox h6, .colSM>.textBox h6{font-size:.5em;}
+	/* 
+	#footer .f_top{height:100px;} */
+	#footer .f_top h4{width:100%;clear:both; font-size:1.3em;}
+	#footer .f_top p{clear:both; float:left; padding-left:20px; padding:10px;}
+	#footer .f_top .newsletter{right:27%;}
+	.f_mid ul li{font-size:1.3em;}
+	.f_bottom ul li, .f_bottom ul li a{font-size:12px;}
+	.f_bottom .left{padding-bottom:5px;}
+}
+@media screen and (max-width:1023px){
+	.singUpWrap{width:20%; }
+	.rightMenuWrap{width:80%;}
+	.shipping{display:none;}
+	.topMenuWrap ul li{margin:0 10px;}
+	.headerTop a{font-size:14px; padding-top:7px;}
+	.gnb>li{ float:left; font-size:1.7em; padding:20px 1px; }
+	.collection{float:right;}
+	.sub_last{display:none;}
+	.subWrap>ul{width:20%;}
+	
+	.textBox h6{font-size:.9em;}
+	.textBox h2{font-size:2em;}
+	.colM>.textBox h2, .colSM>.textBox h2{font-size:1.5em;}
+	.colM>.textBox h6, .colSM>.textBox h6{font-size:.5em;}
+	
+	#footer .f_top h4{width:100%;clear:both; font-size:1em;}
+	#footer .f_top p{clear:both; float:left; padding-left:20px; padding:10px; font-size:6px;}
+	#footer .f_top .newsletter{right:27%;}
+	.f_mid ul li{font-size:1em;}
+	.f_bottom ul li, .f_bottom ul li a{font-size:12px;}
+	.f_bottom .left{padding-bottom:5px;}
+}
+@media screen and (max-width:911px) {
+	.gnbWrap {position:static;}
+	.singUpWrap{width:30%; }
+	.rightMenuWrap{width:70%;}
+	.headerTop{height:30px; padding-top:5px;}
+	.headerTop a{font-size: 14px;}
+	.shipping, .assistance {display:none;}
+	.searchBtn{top:8px;}
+	.gnbWrap>h1>a>img{display:block; width:90%; margin:10px;}
+	.gnbWrap{height:120px;}
+	.mainvisual{top:50px;}
+	.gnb{clear:both; }
+	.gnb>li{font-size:1.8em; padding:10px;}
+	.mainvisual{top:0;}
+	.mainvisual .textBox{margin-top:50px;}
+	
+	.textBox h6{font-size:.8em;}
+	.textBox h2{font-size:1.5em;}
+	
+	.colM>.textBox h2, .colSM>.textBox h2{font-size:1.5em;}
+	.colM>.textBox h6, .colSM>.textBox h6{font-size:.8em;}
+	
+	#footer .f_top .newsletter{right:13%;}
+	.row>input{width:30%;}
+	#footer .f_top .newsletter{right:8%;}
+	#footer .f_bottom li{letter-spacing:-1px;}
+	#footer .f_bottom{padding:5px;}
+	.sns>li{width:25px; height:22px;}
+	.f_bottom .left{padding:0;}
+}
+@media screen and (max-width:750px){
+	.gnbWrap{width:100%;}
+	.m_menu{width:50px; height:50px; float:left; display:block;}
+	.m_menu img{width:30px; height:30px; display:block; margin:0 auto; margin-top:10px;}
+	.singUpWrap{display:none;}
+	.rightMenuWrap{width:100%; clear:both;}
+	.shopping, .searchBar{display:none;}
+	.topMenuWrap{clear:both; float:left; width:100%;}
+	.topMenuWrap>ul>li>a{font-size:12px;}
+	.topMenuWrap>ul>li.account{float:right;}
+	.right_menu{display:block; float:right; margin-top:5px; margin-right:10px;}
+	.right_menu ul{float:right;}
+	.right_menu ul li{float:left; margin:10px 10px 0;}
+	.right_menu .m_search{width: 20px; height:20px; margin-right:0; background:url(../images/TF-sprite.png) -350px -149px; transform:scale(1.2); }
+	.right_menu .m_shop{width: 20px; height:20px; transform:scale(1.2); background:url(../images/TF-sprite.png) 0px 0px; margin-top:12px;}
+	.gnbWrap>h1>a>img{width:70%; margin:-7px 0 0; }
+	.gnb{display:none;}
+	#header{height:70px;}
+	.gnbWrap{height:45px;}
+	.mainvisual{top:0px;}
+	
+	
+	.textBox h6{font-size:.5em;}
+	.textBox h2{font-size:1em;}
+	.colM>.textBox h2, .colSM>.textBox h2{font-size:1em;}
+	.colM>.textBox h6, .colSM>.textBox h6{font-size:.5em;}
+	.colM{width:100%;}
+	.mid{overflow:visible;}
+	.mid>.colSM, .bottom>.colSM{width:100%;}
+	#footer{width:100%;}
+	#footer .sns{display:none;}
+	.left .bottom_sec, .left .bottom_last{clear:both;}
+	#footer input{width:90%;}
+	
+	#footer .f_bottom>.left>li{font-size:.9em; font-weight:bold; padding:0;}
+	#footer>.row>h4{padding:0 10px;}
+	#footer .f_bottom ul{clear:both;}
+}

@@ -1,0 +1,104 @@
+﻿@import url('https://fonts.googleapis.com/css?family=Merriweather+Sans');
+
+*{margin:0; padding:0; border:0;}
+li{list-style:none;}
+a{text-decoration:none; color:#999;}
+body{background-color:#000; font-family: 'Merriweather Sans', sans-serif;}
+.fl{float:left;}
+.fr{float:right;}
+.cf:after{content:""; display:none; clear:both;}
+
+#wrap{
+	width:100%;
+	height:100%;
+}
+
+#header{
+	width:100%;
+	height:100px;
+	
+}
+.headerTop{height:30px; padding-top:5px;}
+.headerTop a{
+	font-size: 15px;
+	display:block;
+	padding-top:5px;
+}
+.singUpWrap{text-indent:20px; width:30%; float:left;}
+.rightMenuWrap{float:right; width:70%;}
+
+.shopping{width:20px; height:20px; display:inline-block; margin:6px 20px 0 10px; background:url(../images/TF-sprite.png) no-repeat -450px -100px;}
+.search{height:25px; margin-left:10px; background:none; border-bottom:1px solid #999;}
+.searchBtn{width:20px; height:20px; background: url(../images/TF-sprite.png) no-repeat 0 0; position:absolute; right:50px; top:5px; z-index:10;}
+.topMenuWrap{float:right;}
+.topMenuWrap>.menu>li{float:left;}
+
+
+/* gnb영역 */
+.m_menu{display:none;}
+.right_menu{display:none;}
+.gnbWrap{width:100%; height:70px; position:fixed;z-index:999; background:#000;}
+.gnbWrap h1{float:left; margin-top:20px;}
+.gnb{float:left; }
+.gnb>li{ float:left; font-size:2em; padding:20px 10px; }
+.gnb>li:hover{text-decoration:underline;}
+.gnb>li:hover >a{ color:#fff;}
+.subWrapBg{position:absolute; background:#fff; width:100%; height:350px;padding:0 10px; top:70px; left:0; display:none; z-index:9999; overflow:hidden;}
+.subWrap{width:90%; margin:0 auto;  padding-top:20px;}
+.subWrap>ul{width:16%;}
+.subWrap>ul>li{font-size:14px; line-height:150%;}
+
+.collection{width:20%; border-left:1px soild #ccc;padding:10px 10%; }
+.collection img{height: 300px; float:right; }
+
+
+
+/* contentsWrap 영역 */
+.row{width:100%; }
+.row img{box-sizing:borderbox; width:100%; height:100%; display:block;}
+.mainvisual{ position:relative;}
+.textBox{position:absolute; top:40px; left:30px; color:#fff;}
+.textBox h6{font-size:1.5em;}
+.textBox h2{font-size:3em;}
+
+.colM{width:66.6666%; float:left; position:relative; box-sizing:borderbox;}
+.colM>.textBox h2{font-size:2em;}
+.colM>.textBox h6{font-size:.9em;}
+.mid{overflow:hidden;}
+.mid>.colSM{width:33.3333%; float:left; position:relative; box-sizing:borderbox;}
+.mid>.colM>.imgBox>a>img{width:100%;}
+.mid>.colSM>.imgBox>a>img{width:100%;}
+.colSM>.textBox h2{font-size:2em;}
+.colSM>.textBox h6{font-size:.9em;}
+.colSM{box-sizing:borderbox;}
+.bottom>.colSM{width:33.3333%; float:left; position: relative; box-sizing:borderbox;}
+
+
+
+/* footer */
+
+#footer{clear:both; width:90%; height:100%; margin:0 auto;}
+#footer .row{height:auto; width:100%; border-bottom:1px solid #999; clear:both; padding:20px 0;}
+#footer>.row>h4{font-size:2em; float:left; padding:0 20px; color:#fff;}
+.row>p{font-size:12px; float:left; padding:20px 5px 0 0px; color:#999;}
+.row>input{width:22%; height:20px; padding:5px 0px; margin:0 10px; }
+.row>button{position:absolute; right:17%; height:30px; width:30px; background:none;}
+#footer .f_mid{padding:40px 0 90px 0;}
+.f_mid h4{color:#fff;}
+.customerServis{width:100%;}
+.customerServis>li, .service>li, .company>li{float:left; font-size:2em; padding:10px;}
+.f_mid li a:hover{color:#fff; text-decoration:underline;}
+.service, .company{width:100%; clear:both;}
+#footer .f_bottom {border:none; padding-bottom:10px;}
+.f_bottom>.left>li{float:left; font-size:14px; padding-bottom:10px;}
+.sns{float:right;}
+.sns .snsTitle{width:100px;}
+.sns>li{float:left; color:#fff; width:30px; height:30px; margin:0 2px;}
+.facebook{background:url(../images/TF-sprite.png) no-repeat -50px 0; width:30px; height:30px;}
+.twitter{background:url(../images/TF-sprite.png) no-repeat -101px 0; width:30px; height:30px;}
+.youtube{background:url(../images/TF-sprite.png) no-repeat -150px 0; width:30px; height:30px;}
+.tumblr{background:url(../images/TF-sprite.png) no-repeat -200px 0; width:30px; height:30px;}
+.instargram{background:url(../images/TF-sprite.png) no-repeat -250px 0; width:30px; height:30px;}
+.pinterest{background:url(../images/TF-sprite.png) no-repeat -300px 0; width:30px; height:30px;}
+.weibo{background:url(../images/TF-sprite.png) no-repeat -350px -100px; width:30px; height:30px;}
+.google{background:url(../images/TF-sprite.png) no-repeat -150px -150px; width:30px; height:30px;}
